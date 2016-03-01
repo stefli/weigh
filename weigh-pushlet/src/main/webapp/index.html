@@ -1,0 +1,16 @@
+<html>
+<head>
+<script type="text/javascript" src="resources/js/ajax-pushlet-client.js"></script>
+<script type="text/javascript">
+	PL._init();
+	PL.joinListen('/demo/data');
+	function onData(event) {
+		document.getElementById("data").innerText = event.get("data");
+	}
+</script>
+</head>
+<body>
+	Weight:
+	<span id="data">Waiting...</span>
+</body>
+</html>
