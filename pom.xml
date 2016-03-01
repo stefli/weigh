@@ -5,7 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>weigh-example</module>
   	<module>weigh-core</module>
   	<module>weigh-pushlet</module>
   </modules>
